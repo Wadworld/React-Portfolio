@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-main: "Inter", sans-serif;
+  --font-heading: "Poppins", sans-serif;
+
+  /* Colors */
+  --color-primary: #2563eb;
+  --color-secondary: #f59e0b;
+  --color-dark: #020617;
+  --color-light: #f8fafc;
+
+  /* Breakpoints (Screens) */
+  --screen-sm: 640px;
+  --screen-md: 768px;
+  --screen-lg: 1024px;
+  --screen-xl: 1280px;
+  --screen-2xl: 1536px;
+
+  /* Spacing  */
+  --spacing-xl: 12rem;
+  --spacing-high: 9rem;
+  --spacing-medium: 5rem;
+  --spacing-low: 2rem;
+}
+
+@layer base {
+  body {
+    @apply text-white font-sans bg-slate-950 inset-0 bg-[radial-gradient(#ffffff1a_1px,transparent_1px)] bg-[size:20px_20px] opacity-90 mx-0 px-0;
+  }
+}  
+
+@layer components {
+  /* Base button */
+  .btn {
+    @apply rounded-lg font-semibold text-black bg-white
+           hover:bg-gray-300 transition duration-300
+           whitespace-nowrap;
+  }
+  .btnArrow {
+    @apply inline-flex items-center justify-center   gap-2 rounded-lg font-semibold text-white border border-gray-700
+           hover:bg-white hover:text-black transition duration-300
+           whitespace-nowrap;
+  }
+
+  /* Small button */
+  .btn-sm {
+    @apply
+      px-3 py-3 text-sm w-32
+      sm:px-4 sm:py-2.5 sm:text-base sm:w-32
+      md:px-5 md:py-3 md:text-lg md:w-48;
+  }
+
+  /* Medium button (default) */
+  .btn-md {
+    @apply
+      px-5 py-4 text-base w-48
+      sm:px-5 sm:py-2.5 sm:text-lg sm:w-40
+      md:px-6 md:py-3 md:text-xl md:w-48;
+  }
+
+  /* Large button */
+  .btn-lg {
+    @apply
+      px-5 py-2.5 text-lg w-full
+      sm:px-6 sm:py-3 sm:text-xl sm:w-48
+      md:px-8 md:py-4 md:text-2xl md:w-56;
+  }
+}
