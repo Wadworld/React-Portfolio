@@ -12,7 +12,7 @@ const Idea = () => {
         <h2 className='text-3xl md:text-4xl lg:text-5xl font-bold py-4'>Ready to Bring Your Ideas to Life?</h2>
         <p className='text-lg font-medium my-3 lg:px-60 md:text-center'>Let's collaborate and create something amazing together. Whether it's a web application, mobile app, or Shopify Store project. I'm here to help turn your vision into reality.</p>
         <div className='flex flex-col md:flex-row md:justify-center items-center md:gap-1 gap-3 m-4'>
-            <a href="#contact" className='inline-flex items-center bg-white hover:scale-105 text-black md:text-2xl py-3 px-5 rounded-lg mr-4 transition'>
+            <a href="#contact" className='inline-flex items-center bg-white hover:scale-105 text-black md:text-2xl py-3 px-8 rounded-lg transition'>
                 Get In Touch
                 <FaArrowRight className='ml-1 text-xl '/>
             </a>

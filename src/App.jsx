@@ -9,6 +9,7 @@ import WorkExperience from './components/WorkExperience/WorkExperience';
 import ClientStats from './components/Client/Client';
 import ContactForm from './components/Form/Form';
 import Idea from './components/Idea/Idea';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <WorkExperience/>
       <Idea />
       <ContactForm />
+      <Footer />
     </>
   )
 }

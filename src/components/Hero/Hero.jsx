@@ -1,6 +1,6 @@
 import React from 'react'
 import Left from './Left'
-import  profile  from '../../assets/img/profile.jpg'
+import  profile  from '../../assets/img/Profile.png'
 
 const Hero = () => {
   return (
