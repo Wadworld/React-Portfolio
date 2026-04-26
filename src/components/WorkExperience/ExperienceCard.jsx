@@ -1,8 +1,13 @@
 import React from 'react'
+import { motion } from "framer-motion";
 
 function ExperienceCard({ role, company, location, description, tech, date }) {
   return (
-    <div className="bg-slate-900/80 backdrop-blur border border-white/10 rounded-2xl p-5 shadow-lg text-left">
+    <motion.div 
+      initial={{ opacity: 0, x: 100 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.5 }}
+      className="bg-slate-900/80 backdrop-blur border border-white/10 rounded-2xl p-5 shadow-lg text-left">
       <h3 className="text-xl font-bold mb-4 text-white">{role}</h3>
       <p className="text-white/80 font-semibold text-lg mb-3">{company}</p>
       {/* {location && <p className="text-sm text-white/50 mt-3 mb-1">{location}</p>} */}
@@ -26,7 +31,7 @@ function ExperienceCard({ role, company, location, description, tech, date }) {
         ))}
       </div>
       <p className="text-xs text-white/80 font-bold mt-3">{date}</p>
-    </div>
+    </motion.div>
   );
 }
 

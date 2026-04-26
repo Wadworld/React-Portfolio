@@ -1,5 +1,6 @@
 import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaShopify, FaGitAlt, FaGithub }from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
+import { SiCanva } from "react-icons/si";
 import { IoSearch } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { motion } from "framer-motion";
@@ -42,8 +43,12 @@ const techs = [
     icon: <FaGithub />,
   },
   {
-    name: "Email Marketing",
+    name: "Email Market.",
     icon: <MdEmail />,
+  },
+  {
+    name: "Canva",
+    icon: <SiCanva />,
   },
 ];
 

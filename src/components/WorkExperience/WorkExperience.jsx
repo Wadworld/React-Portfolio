@@ -42,7 +42,7 @@ function WorkExperience() {
   ];
 
   return (
-    <section className="relative min-h-screen text-white px-3 md:px-8 lg:px-32 py-5 overflow-hidden">
+    <section id="experience" className="relative min-h-screen text-white px-3 md:px-8 lg:px-32 py-5 overflow-hidden">
       {/* dotted background */}
       <div className="absolute inset-0 bg-[radial-gradient(rgba(255,255,255,0.08)_1px,transparent_1px)] " />
 

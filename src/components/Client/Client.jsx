@@ -29,7 +29,11 @@ function Counter({ value }) {
 ===================== */
 function ClientCard({ icon: Icon, value, suffix, label }) {
   return (
-    <div className="bg-slate-900/80 backdrop-blur border border-white/20 rounded-2xl p-6 text-center shadow-lg">
+    <motion.div 
+      initial={{ opacity: 0, y: 100 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+      className="bg-slate-900/80 backdrop-blur border border-white/20 rounded-2xl p-6 text-center shadow-lg">
       <Icon className="mx-auto mb-4 text-white" size={32} />
 
       <div className="flex justify-center items-baseline">
@@ -38,7 +42,7 @@ function ClientCard({ icon: Icon, value, suffix, label }) {
       </div>
 
       <p className="mt-2 text-sm text-white/60">{label}</p>
-    </div>
+    </motion.div>
   );
 }
 

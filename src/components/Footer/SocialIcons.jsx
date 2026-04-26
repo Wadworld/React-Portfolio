@@ -9,21 +9,24 @@ import {
 
 import { FaXTwitter } from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
+import { motion } from "framer-motion";
 
 function SocialIcons() {
   const socials = [
-    { icon: <FaWhatsapp />, link: "#" },
-    { icon: <FaGithub />, link: "#" },
-    { icon: <FaXTwitter />, link: "#" },
-    { icon: <FaLinkedin />, link: "#" },
-    { icon: <FaFacebook />, link: "#" },
-    { icon: <FaInstagram />, link: "#" },
-    { icon: <FaTiktok />, link: "#" },
-    { icon: <HiOutlineMail />, link: "mailto:your@email.com" },
+    { icon: <FaWhatsapp />, link: "https://wa.me/2348107095871?text=Hi%20I%20want%20to%20work%20with%20you" },
+    { icon: <FaXTwitter />, link: "https://x.com/Wadwrld" },
+    { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/wadood-senior/" },
+    { icon: <FaFacebook />, link: "https://www.facebook.com//profile.php?id=100076966755835" },
+    { icon: <FaInstagram />, link: "https://www.instagram.com/millennium.studios?igsh=MThldjJubm5lcmxtYw==" },
+    { icon: <FaTiktok />, link: "https://www.tiktok.com/@millenniumagency.shopify?_r=1&_d=f1kk9k0631876f&sec_uid=MS4wLjABAAAAk7c5gcDexcxaEygEBH3fO4fryTrGqzA9GutYsrAlf6fgRbPvlumU-gSuq-PtB_Fn&share_author_id=7301367602541659142&sharer_language=en&source=h5_m&u_code=eb3mfafi3884md&timestamp=1777221564&user_id=7301367602541659142&sec_user_id=MS4wLjABAAAAk7c5gcDexcxaEygEBH3fO4fryTrGqzA9GutYsrAlf6fgRbPvlumU-gSuq-PtB_Fn&item_author_type=1&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7602364292054189840&share_link_id=558fbd02-26ad-48cd-a075-bf6b87e6bdf0&share_app_id=1233&ugbiz_name=ACCOUNT&ug_btm=b8727%2Cb7360&social_share_type=5&enable_checksum=1" },
   ];
 
   return (
-    <div className="flex flex-wrap justify-center items-center gap-6 mt-3">
+    <motion.div
+        initial={{ opacity: 0, x: -100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.5 }}
+        className="flex flex-wrap justify-center items-center gap-6 mt-3">
       {socials.map((item, index) => (
         <a
           key={index}
@@ -37,7 +40,7 @@ function SocialIcons() {
           </span>
         </a>
       ))}
-    </div>
+    </motion.div>
   );
 }
 

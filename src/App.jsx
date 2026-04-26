@@ -1,33 +1,41 @@
-import Navbar from './components/Navbar/Navbar';
-import './App.css'
-import Hero from './components/Hero/Hero';
-import Tech from './components/TechStack/Tech';
-import AboutMe from './components/About/AboutMe';
-import Services from './components/Services/Services';
-import FeaturedProjects from './components/FeaturedProjects/FeaturedProjects';
-import WorkExperience from './components/WorkExperience/WorkExperience';
-import ClientStats from './components/Client/Client';
-import ContactForm from './components/Form/Form';
-import Idea from './components/Idea/Idea';
-import Footer from './components/Footer/Footer';
+import {
+  Route,
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+} from "react-router-dom";
+
+import Layout from "./layouts/Layout";
+import Home from "./pages/HomePage";
+import ProjectDetails from "./pages/ProjectPage";
 
 function App() {
+  const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<Layout />}>
+b
+      {/* Home page */}
+      <Route index element={<Home />} />
 
-  return (
-    <>
-      <Navbar />
-      <Hero />
-      <Tech/>
-      <AboutMe/>
-      <Services/>
-      <ClientStats/>
-      <FeaturedProjects/>
-      <WorkExperience/>
-      <Idea />
-      <ContactForm />
-      <Footer />
-    </>
+      {/* Project details page */}
+      <Route path="projects/:slug" element={<ProjectDetails />} />
+
+    </Route>
   )
+);
+
+return <RouterProvider router={router} />;
+
+  // return (
+  //   <>  
+  //     <Routes>
+  //       <Route element={<Layout />}>
+  //         <Route path="/" element={<Home />} />
+  //         <Route path="/projects/:slug" element={<ProjectDetails />} />
+  //       </Route>
+  //     </Routes>
+  //   </>
+  // )
 }
 
 export default App

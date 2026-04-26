@@ -1,6 +1,9 @@
+import { motion } from "framer-motion";
+
 function AboutMe() {
   return (
     <section
+      id="about"
       className="
         relative
         py-20
@@ -23,25 +26,41 @@ function AboutMe() {
         {/* Text Content */}
         <div className="space-y-6 text-left leading-relaxed text-sm md:text-xl">
 
-          <p className="text-lg">
-            I'm a passionate frontend developer with expertise in web
-            development, as well as <span className="font-bold text-white">shopify theme customization</span>. I specialize in creating accessible,
-            human-centered digital experiences that make a real impact.
-          </p>
+          <motion.p 
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.2 }}
+            className="text-sm md:text-xl font-semibold">
+            I build modern, conversion-focused <span className="font-bold text-white">eCommerce</span> websites that are designed to do more than just look good, they are built to drive results.
+          </motion.p>
 
-          <p>
-            My journey as a <span className="font-bold text-white">frontend developer</span> started with a simple idea, every user deserves a smooth experience, no matter the device in their hands. Today, I build modern, mobile responsive websites that feel natural to use and visually engaging from the first scroll. I focus on clean code, performance, and thoughtful layouts that turn visitors into users and users into loyal customers.
-          </p>
+          <motion.p
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.4 }}>
+            With experience in <span className="font-bold text-white">frontend </span>development and <span className="font-bold text-white">Shopify</span> customization, I create fast, responsive, and user-friendly interfaces that make it easy for customers to browse, trust, and buy. Every decision I make, from layout to interaction, is focused on improving user experience and increasing conversions.
+          </motion.p>
 
-          <p>
-            I discovered early on that a great online store is more than just good design, it is about trust and flow. That belief drives how I design Shopify stores that guide customers effortlessly from discovery to checkout. By blending brand identity with conversion focused layouts, I help businesses tell their story, showcase their products, and confidently sell online.
+          <motion.p
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}>
+            I understand that a successful online store is not just about design, it is about how users move through the experience. From product discovery to checkout, I design systems that guide customers naturally and reduce friction at every step.
+          </motion.p>
 
+          <motion.p
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8 }}>
+            Whether it is a Shopify store or a custom-built website, my goal is always the same, to help businesses grow by turning visitors into customers and customers into repeat buyers.
+          </motion.p>
 
-          </p>
-
-          <p>
-            I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Let's build something amazing together!
-          </p>
+          <motion.p
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}>
+            If you are looking to build or improve your online store, I am open to working with brands that care about quality, performance, and real results.
+          </motion.p>
 
         </div>
 

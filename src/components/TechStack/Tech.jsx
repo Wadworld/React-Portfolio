@@ -41,56 +41,90 @@ const techs = [
   );
 }
 
-/* Marquee Component */
+// /* Marquee Component */
+// function Marquee({ items, direction = "left" }) {
+//   const isLeft = direction === "left";
+
+//   return (
+//     <div className="relative overflow-hidden">
+
+//       <motion.div
+//         className="flex gap-5 w-max"
+//         animate={{
+//           x: isLeft ? ["0%", "-100%"] : ["-100%", "0%"],
+//         }}
+//         transition={{
+//           repeat: Infinity,
+//           duration: 200,   // 👈 Slower & smoother
+//           ease: "linear",
+//         }}
+//       >
+
+//         {/* Triple copy for seamless loop */}
+//         {[...items, ...items, ...items, ...items, ...items].map((tech, index) => (
+//           <div
+//             key={index}
+//             className="
+//               min-w-[100px]
+//               bg-gray-800
+//               border border-black
+//               rounded-3xl md:rounded-xl
+//               py-4 md:py-5 px-4
+//               flex flex-col
+//               items-center
+//               justify-center
+//               gap-3
+//               shrink-0
+//               text-center
+//               text-white
+//             "
+//           >
+//             {/* Icon */}
+//             <div className="text-4xl">
+//               {tech.icon}
+//             </div>
+
+//             {/* Name */}
+//             <p className="text-sm font-medium">
+//               {tech.name}
+//             </p>
+//           </div>
+//         ))}
+
+//       </motion.div>
+
+//     </div>
+//   );
+// }
+
 function Marquee({ items, direction = "left" }) {
   const isLeft = direction === "left";
 
+  const duplicated = [...items, ...items]; // only 2 copies
+
   return (
-    <div className="relative overflow-hidden">
+    <div className="overflow-hidden">
 
       <motion.div
         className="flex gap-5 w-max"
         animate={{
-          x: isLeft ? ["0%", "-100%"] : ["-100%", "0%"],
+          x: isLeft ? ["0%", "-50%"] : ["-50%", "0%"],
         }}
         transition={{
           repeat: Infinity,
-          duration: 200,   // 👈 Slower & smoother
+          duration: 25, // much better speed
           ease: "linear",
         }}
       >
-
-        {/* Triple copy for seamless loop */}
-        {[...items, ...items, ...items, ...items, ...items].map((tech, index) => (
+        {duplicated.map((tech, index) => (
           <div
             key={index}
-            className="
-              min-w-[100px]
-              bg-gray-800
-              border border-black
-              rounded-3xl md:rounded-xl
-              py-4 md:py-5 px-4
-              flex flex-col
-              items-center
-              justify-center
-              gap-3
-              shrink-0
-              text-center
-              text-white
-            "
+            className="min-w-[100px] bg-gray-800 border border-black rounded-3xl md:rounded-xl py-4 md:py-5 px-4 flex flex-col items-center justify-center gap-3 shrink-0 text-center text-white"
           >
-            {/* Icon */}
-            <div className="text-4xl">
-              {tech.icon}
-            </div>
-
-            {/* Name */}
-            <p className="text-sm font-medium">
-              {tech.name}
-            </p>
+            <div className="text-4xl">{tech.icon}</div>
+            <p className="text-sm font-medium">{tech.name}</p>
           </div>
         ))}
-
       </motion.div>
 
     </div>

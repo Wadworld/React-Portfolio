@@ -5,7 +5,7 @@ import ServiceCard from "./ServiceCard";
 
 function Services() {
   return (
-    <section className="relative py-5 px-0 text-gray-200 overflow-hidden">
+    <section id="services" className="relative py-5 px-0 text-gray-200 overflow-hidden">
 
       {/* Content */}
       <div className="relative max-w-7xl mx-auto">
@@ -25,9 +25,9 @@ function Services() {
           {/* Card 1 */}
           <ServiceCard
             icon={<Monitor size={40} />}
-            title="Website Development"
+            title="eCommerce Website Development"
             subtitle="Frontend "
-            description="I create fast, modern, and fully responsive websites that deliver a smooth experience across all devices, focusing on usability, performance, and clean design."
+            description="I build high-converting eCommerce websites that are designed to turn visitors into customers. From clean, responsive design to optimized user journeys, every part of the site is structured to improve performance, build trust, and increase sales."
             tags={[
               "JavaScript",
               "React",
@@ -41,9 +41,9 @@ function Services() {
           <ServiceCard
             icon={<MdEmail size={40} />}
             title="Email & SMS Marketing"
-            subtitle="React Native & Flutter"
-            description="I build targeted Email and SMS marketing campaigns that drive engagement, nurture customer relationships, and increase sales through timely, relevant messaging."
-            tags={["Sign-Up Form", "Cross-sell","Up-sell", "Abandoned Cart", "Promotions"]}
+            subtitle="Automation & Flows"
+            description="I build automated email and SMS systems that recover lost sales, nurture customers, and increase repeat purchases. From abandoned cart recovery to post-purchase flows, every message is designed to drive revenue and improve customer retention."
+            tags={["Customer Retention", "Welcome Series", "Post-purchase Flows","Promotions", "Abandoned Cart Recovery", "Browse Abandonment"]}
           />
 
           {/* Card 3 */}
@@ -51,12 +51,13 @@ function Services() {
             icon={<FaShopify size={40} />}
             title="Shopify Store Design"
             subtitle="Blockchain & Smart Contracts"
-            description="I design and customize high converting Shopify stores that reflect brand identity while providing a seamless and intuitive shopping experience."
+            description="I design and optimize Shopify stores that are built to convert. From layout structure to user experience, every element is crafted to build trust, guide customers through the buying journey, and increase overall sales."
             tags={[
               "Theme Customization",
               "App Integration",
-              "Theme Redesign",
-              "Product Listing",
+              "Banner Design", "Store Performance",
+              "Product Page Design",
+              "Up-sell & Cross-sell", "SEO Optimization",
             ]}
           />
 
