@@ -26,7 +26,7 @@ function WorkExperience() {
       description: [
         "My Shopify journey started with understanding how online stores influence buying decisions. Through hands on practice and real projects, I learned how to design stores that balance strong branding with clear navigation and conversion focused structure.",
       ],
-      tech: ["Theme Customization", "Canva", "App Integration", "SEO Optimization", "Niche Research", "Product Research"],
+      tech: ["Theme Customization", "Canva", "App Integration", "Niche Research", "SEO Optimization",  "Product Research"],
     },
     {
       role: "Email & SMS Marketing",
