@@ -30,7 +30,7 @@ const Socials = () => {
         <a href="mailto:wadoodsenioradedimeji@email.com?subject=Project%20Inquiry&body=Hi,%20I’d%20like%20to%20work%20with%20you%20on..." title="Send me an email" className='hover:scale-200 duration-500 ease-out'>
             <MdOutlineEmail size={20} className='mr-5'/> 
         </a>
-        <a href="https://wa.me/2348107095871?text=Hi%20I%20want%20to%20work%20with%20you" className='hover:scale-200 duration-500 ease-out'>
+        <a href="https://wa.me/2348107095871?text=Hi%20Wadood%20Senior,%20I%20am%20interested%20in%20working%20with%20you" className='hover:scale-200 duration-500 ease-out'>
             <FaWhatsapp size={20} className='mr-1'/> 
         </a>
         </div>
