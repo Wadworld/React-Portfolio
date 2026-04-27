@@ -13,7 +13,7 @@ import { motion } from "framer-motion";
 
 function SocialIcons() {
   const socials = [
-    { icon: <FaWhatsapp />, link: "https://wa.me/2348107095871?text=Hi%20I%20want%20to%20work%20with%20you" },
+    { icon: <FaWhatsapp />, link: "https://wa.me/2348107095871?text=Hi%20Wadood,%20I%20am%20interested%20in%20working%20with%20you" },
     { icon: <FaXTwitter />, link: "https://x.com/Wadwrld" },
     { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/wadood-senior/" },
     { icon: <FaFacebook />, link: "https://www.facebook.com//profile.php?id=100076966755835" },
