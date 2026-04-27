@@ -9,35 +9,35 @@ function WorkExperience() {
       role: "Frontend Website Development",
       company: "Campus Space",
       location: "Remote",
-      date: "05/2025 – Present",
+      date: "05/2024 – Present",
       icon: <Monitor size={30} />,
       side: "left",
       description: [
         "I began my journey in web development by learning how to turn ideas into responsive interfaces that work smoothly on every device. Over time, I refined my skills in layout, performance, and user experience, building websites that are both functional and visually polished.",
       ],
-      tech: ["Next.js", "Node.js", "MongoDB", "TypeScript", "React Native"],
+      tech: ["Next.js", "Figma", "Tailwind CSS", "TypeScript", "React JS"],
     },
     {
       role: "Shopify Development",
       company: "Remote / Freelance",
-      date: "02/2024 – 06/2025",
+      date: "06/2025 – Present",
       icon: <FaShopify size={30} />,
       side: "right",
       description: [
         "My Shopify journey started with understanding how online stores influence buying decisions. Through hands on practice and real projects, I learned how to design stores that balance strong branding with clear navigation and conversion focused structure.",
       ],
-      tech: ["React", "Node.js", "Express", "PostgreSQL"],
+      tech: ["Theme Customization", "Canva", "App Integration", "SEO Optimization", "Niche Research", "Product Research"],
     },
     {
       role: "Email & SMS Marketing",
       company: "Remote / Freelance",
-      date: "08/2023 – 01/2024",
+      date: "08/2025 – Present",
       icon: <Briefcase size={30} />,
       side: "left",
       description: [
         "I stepped into Email and SMS marketing to help brands maintain meaningful connections after the first visit or purchase. By learning automation, segmentation, and messaging strategy, I now create campaigns that engage audiences and support long term growth.",
       ],
-      tech: ["React", "Tailwind", "JavaScript"],
+      tech: ["Klaviyo", "Email Flows", "Sales Funnel"],
     },
   ];
 

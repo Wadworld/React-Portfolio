@@ -8,7 +8,7 @@ import  Connect  from '../Footer/Connect';
 function Footer() {
   return (
     <div className=" border-t border-white/30 mt-5 mb-8 overflow-hidden">
-      <div className="max-w-6xl mx-auto px-4 py-10 grid md:grid-cols-3 gap-10 justify-center">
+      <div className="max-w-6xl mx-auto px-4 py-10 grid lg:grid-cols-3 gap-10 justify-center">
 
         <FooterLinks />
         <Connect />

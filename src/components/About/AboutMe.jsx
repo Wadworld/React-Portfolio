@@ -7,7 +7,7 @@ function AboutMe() {
       className="
         relative
         py-20
-        px-0 md:px-2
+        px-0 lg:px-2
         text-gray-200
         overflow-hidden
       "

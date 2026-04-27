@@ -9,8 +9,8 @@ const Hero = () => {
             <div className='col-span-2'>
                 <Left />
             </div>
-            <div className='flex justify-center col-span-1'>
-                <img src={profile} alt="Wadood Senior" className='mt-10 rounded-full w-72 h-72 md:w-96 md:h-96  object-[50% 50%]' />
+            <div className='flex justify-center col-span-1 items-center'>
+                <img src={profile} alt="Wadood Senior" className='mt-10 rounded-full w-72 h-72 md:w-54 md:h-54  object-[50% 50%]' />
             </div>
         </div>
     </section>

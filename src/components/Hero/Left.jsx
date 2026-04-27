@@ -14,13 +14,13 @@ const Left = () => {
             <span className="bg-green-500 rounded-full  w-3 h-3 animate-pulse"></span>
             <span className='text-xl text-green-500'>Available for new projects</span>
         </p>
-        <h2 className='text-3xl md:text-5xl font-semibold mt-4'>I'm Wadood Senior <br /> I design <span className='font-bold hover:underline '>eCommerce</span> websites, Shopify stores and email systems that drive sales.
+        <h2 className='text-3xl md:text-3xl font-semibold mt-4'>I'm Wadood Senior <br /> I design <span className='font-bold hover:underline '>eCommerce</span> websites, Shopify stores and email systems that drive sales.
         </h2>
         <motion.p 
           initial={{ opacity: 0, x: 0 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 2.5 }}
-          className='mt-10 text-gray-300 text-lg md:text-xl'>I help eCommerce brands grow by building clean, conversion-focused websites and automated email systems that increase sales and customer retention.</motion.p>
+          className='mt-10 text-gray-300 text-lg md:text-lg'>I help eCommerce brands grow by building clean, conversion-focused websites and automated email systems that increase sales and customer retention.</motion.p>
         <motion.div 
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}

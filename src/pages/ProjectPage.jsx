@@ -24,27 +24,27 @@ function ProjectDetails() {
       {/* Back */}
       <Link 
         to="/#projects"
-        className="text-slate-400 font-lg my-8 cursor-pointer">
+        className="text-slate-400 font-medium md:text-lg my-8 cursor-pointer">
         <FaArrowLeft className="inline mr-2" />  Back to Projects
       </Link>
 
       {/* Tags */}
       <div className="flex gap-3 my-8">
-        <span className="px-4 py-2 bg-slate-800/90 border border-white/10 rounded-full text-1sm font-bold">
+        <span className="px-4 py-2 bg-slate-800/90 border border-white/10 rounded-full text-sm font-semibold">
           {project.role}
         </span>
-        <span className="bg-yellow-400 text-sm font-bold text-white px-3 py-1 rounded-full justify-center flex items-center gap-1">
+        <span className="bg-yellow-400 text-sm font-semibold text-white px-3 py-1 rounded-full justify-center flex items-center gap-1">
           <CiStar className="inline text-lg text-yellow-600 mr-1"/>  Featured Project
         </span>
       </div>
 
       {/* Title */}
-      <h1 className="text-4xl font-bold mb-4">
+      <h1 className="text-3xl md:text-4xl font-bold mb-4">
         {project.title}
       </h1>
 
       {/* Description */}
-      <p className="text-slate-400 leading-relaxed text-lg font-semibold">
+      <p className="text-slate-400 leading-relaxed text-lg md:font-semibold">
         {project.case}
       </p>
 

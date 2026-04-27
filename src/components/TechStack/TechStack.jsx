@@ -77,8 +77,8 @@ const techs = [
             className="
               bg-gray-800
               border border-black
-              rounded-3xl md:rounded-lg
-              py-4 md:py-5
+              rounded-2xl md:rounded-lg
+              py-2 md:py-5
               flex flex-col items-center
               justify-center
               gap-3
@@ -88,7 +88,7 @@ const techs = [
             "
           >
             {/* Icon */}
-            <div className="text-3xl md:text-5xl">
+            <div className="text-2xl md:text-5xl">
               {tech.icon}
             </div>
 

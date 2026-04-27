@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
-import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaShopify, FaGitAlt, FaGithub }from "react-icons/fa";
+import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaShopify, FaGitAlt, FaGithub, FaFigma }from "react-icons/fa";
 import { SiTailwindcss, SiTypescript, } from "react-icons/si";
 import { IoSearch } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
+import { SiCanva } from "react-icons/si";
 
 const techs = [
     { name: "HTML", icon: <FaHtml5 /> },
@@ -15,7 +16,9 @@ const techs = [
     { name: "GitHub", icon: <FaGithub /> },
     { name: "Shopify", icon: <FaShopify />,},
     { name: "SEO Opt.", icon: <IoSearch />,},
-    {name: "Email Marketing", icon: <MdEmail />,},
+    {name: "Email Market.", icon: <MdEmail />,},
+    {name: "Canva", icon: <SiCanva />,},
+    {name: "Figma", icon: <FaFigma />,},
 ];
 
  function Tech() {
@@ -119,9 +122,9 @@ function Marquee({ items, direction = "left" }) {
         {duplicated.map((tech, index) => (
           <div
             key={index}
-            className="min-w-[100px] bg-gray-800 border border-black rounded-3xl md:rounded-xl py-4 md:py-5 px-4 flex flex-col items-center justify-center gap-3 shrink-0 text-center text-white"
+            className="min-w-[100px] bg-gray-800 border border-black rounded-3xl md:rounded-3xl py-4 md:py-5 flex flex-col items-center justify-center gap-3 shrink-0 text-center text-white"
           >
-            <div className="text-4xl">{tech.icon}</div>
+            <div className="text-3xl">{tech.icon}</div>
             <p className="text-sm font-medium">{tech.name}</p>
           </div>
         ))}
