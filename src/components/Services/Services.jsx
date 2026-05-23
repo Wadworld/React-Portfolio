@@ -50,7 +50,7 @@ function Services() {
           <ServiceCard
             icon={<FaShopify size={40} />}
             title="Shopify Store Design"
-            subtitle="Blockchain & Smart Contracts"
+            subtitle="Theme Customization & App Integration"
             description="I design and optimize Shopify stores that are built to convert. From layout structure to user experience, every element is crafted to build trust, guide customers through the buying journey, and increase overall sales."
             tags={[
               "Theme Customization",

@@ -12,7 +12,7 @@ const Left = () => {
       <div className='flex flex-col justify-center items-center md:items-start'>
         <p className="inline-flex items-center gap-2 mb-5">
             <span className="bg-green-500 rounded-full  w-3 h-3 animate-pulse"></span>
-            <span className='text-xl text-green-500'>Available for new projects</span>
+            <span className='text-sm font-semibold text-green-500'>Available for new projects</span>
         </p>
         <h2 className='text-3xl md:text-3xl font-semibold mt-4'>I'm Wadood Senior <br /> I design <span className='font-bold hover:underline '>eCommerce</span> websites, Shopify stores and email systems that drive sales.
         </h2>

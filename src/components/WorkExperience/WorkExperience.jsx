@@ -9,7 +9,7 @@ function WorkExperience() {
       role: "Frontend Website Development",
       company: "Campus Space",
       location: "Remote",
-      date: "05/2024 – Present",
+      date: "05/2023 – Present",
       icon: <Monitor size={30} />,
       side: "left",
       description: [
@@ -20,7 +20,7 @@ function WorkExperience() {
     {
       role: "Shopify Development",
       company: "Remote / Freelance",
-      date: "06/2025 – Present",
+      date: "06/2024 – Present",
       icon: <FaShopify size={30} />,
       side: "right",
       description: [

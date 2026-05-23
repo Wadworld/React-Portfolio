@@ -12,7 +12,7 @@ const Navbar = () => {
         transition={{ duration: 0.5 }}
         className='fixed top-2 left-0 w-full z-50 px-4 py-4 '>
     <div className='flex items-center xl:justify-between  sm:items-center justify-center mx-0 px-0 '>
-        <div className='hidden lg:block'>
+        <div className='hidden md:hidden lg:block'>
             <h1 className='text-3xl font-bold'>WADWRLD</h1>
         </div>
         <div className='items-center'> 

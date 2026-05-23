@@ -36,7 +36,7 @@ const ServiceCard = ({ icon, title, subtitle, description, tags }) => {
       </p>
 
       {/* Description */}
-      <p className="text-gray-300 text-left  leading-relaxed mb-6 flex grow">
+      <p className="text-gray-200 text-left text-sm  leading-relaxed mb-6 flex grow">
         {description}
       </p>
 

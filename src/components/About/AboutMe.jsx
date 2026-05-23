@@ -27,7 +27,7 @@ function AboutMe() {
         <div className="space-y-6 text-left leading-relaxed text-sm md:text-xl">
 
           <motion.p 
-            initial={{ opacity: 0, x: -100 }}
+            initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.2 }}
             className="text-sm md:text-xl font-semibold">
@@ -35,28 +35,28 @@ function AboutMe() {
           </motion.p>
 
           <motion.p
-            initial={{ opacity: 0, x: -100 }}
+            initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.4 }}>
             With experience in <span className="font-bold text-white">frontend </span>development and <span className="font-bold text-white">Shopify</span> customization, I create fast, responsive, and user-friendly interfaces that make it easy for customers to browse, trust, and buy. Every decision I make, from layout to interaction, is focused on improving user experience and increasing conversions.
           </motion.p>
 
           <motion.p
-            initial={{ opacity: 0, x: -100 }}
+            initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}>
             I understand that a successful online store is not just about design, it is about how users move through the experience. From product discovery to checkout, I design systems that guide customers naturally and reduce friction at every step.
           </motion.p>
 
           <motion.p
-            initial={{ opacity: 0, x: -100 }}
+            initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}>
             Whether it is a Shopify store or a custom-built website, my goal is always the same, to help businesses grow by turning visitors into customers and customers into repeat buyers.
           </motion.p>
 
           <motion.p
-            initial={{ opacity: 0, x: -100 }}
+            initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}>
             If you are looking to build or improve your online store, I am open to working with brands that care about quality, performance, and real results.
