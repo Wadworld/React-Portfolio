@@ -33,18 +33,18 @@ function ProjectDetails() {
         <span className="px-4 py-2 bg-slate-800/90 border border-white/10 rounded-full text-sm font-semibold">
           {project.role}
         </span>
-        <span className="bg-yellow-400 text-sm font-semibold text-white px-3 py-1 rounded-full justify-center flex items-center gap-1">
-          <CiStar className="inline text-lg text-yellow-600 mr-1"/>  Featured Project
+        <span className="bg-yellow-400 text-sm font-semibold text-white px-4 py-1 rounded-full justify-center flex items-center gap-1">
+          <CiStar className="inline text-sm text-yellow-600 mr-1"/>  Featured Project
         </span>
       </div>
 
       {/* Title */}
-      <h1 className="text-3xl md:text-4xl font-bold mb-4">
+      <h1 className="text-2xl md:text-4xl font-bold mb-4">
         {project.title}
       </h1>
 
       {/* Description */}
-      <p className="text-slate-400 leading-relaxed text-lg md:font-semibold">
+      <p className="text-slate-400 leading-relaxed text-sm md:font-semibold">
         {project.case}
       </p>
 
@@ -64,10 +64,24 @@ function ProjectDetails() {
         <a
           href={project.liveUrl}
           target="_blank"
-          className="px-5 py-3 bg-white text-black text-lg font-semibold rounded-lg"
+          className="px-4 py-2 bg-white text-black text-lg font-semibold rounded-lg"
         >
           View Live Site <FaArrowRight className="inline ml-2" />
         </a>
+
+      {project.password && (
+        <div className="bg-slate-900 border border-white/10 rounded-xl p-2 inline-flex gap-2 justify-center items-center">
+          <p className="text-lg text-slate-400 mb-1">
+            Demo Store Password:
+          </p>
+
+          <div className="flex items-center gap-2">
+            <span className="bg-slate-800 px-4 py-1 rounded-lg font-semibold text-white tracking-wide">
+              {project.password}
+            </span>
+          </div>
+        </div> 
+      )}
 
         
       </div>
@@ -96,7 +110,7 @@ function ProjectDetails() {
 
         <ul className="space-y-6 text-slate-300">
           {project.features?.map((feature, i) => (
-            <li className="font-semibold" key={i}><span className="bg-white text-slate-800/90 rounded-full px-2 py-1 font-bold text-sm mr-2">✓</span> {feature}</li>
+            <li className="font-semibold" key={i}><span className="bg-white text-slate-800/90 rounded-full px-2 py-1 font-medium text-sm mr-2">✓</span> {feature}</li>
           ))}
         </ul>
       </motion.div>
@@ -106,20 +120,20 @@ function ProjectDetails() {
         initial={{ opacity: 0, x: 100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5 }}
-        className="mt-12 border bg-slate-900/80 border-white/10 rounded-xl p-6">
-        <h2 className="text-2xl font-bold mb-6">
+        className="mt-12 border bg-slate-900/80 border-white/10 rounded-lg p-6">
+        <h2 className="text-2xl font-semibold mb-6">
           Project Info
         </h2>
         <hr className="my-6 text-gray-600"/>
 
         
           <div className="flex flex-col gap-4">
-            <p className="text-sm text-slate-500">TECHNOLOGIES</p>
+            <p className="text-sm text-slate-300">TECHNOLOGIES</p>
             <div className="flex flex-wrap gap-2">
               {project.tags.map((tag, index) => (
                 <span
                   key={index}
-                  className="text-sm md:font-semibold bg-slate-800 border border-white/10 px-4 py-2 rounded-xl text-gray-300"
+                  className="text-sm md:font-semibold bg-slate-800 border border-white/10 px-4 py-2 rounded-xl text-gray-100"
                 >
                   {tag}
                 </span>
@@ -130,7 +144,7 @@ function ProjectDetails() {
 
             <div>
               <p className="text-sm text-slate-500">CATEGORY</p>
-              <p className="text-xl font-bold">{project.year}</p>
+              <p className="text-xl font-bold">{project.category}</p>
             </div>
             <div>
               <p className="text-sm text-slate-500">YEAR</p>

@@ -16,82 +16,74 @@ const projects = [
       case: "JOOCYEE Beauty is a modern beauty store focused on delivering stylish, high-quality makeup products for everyday use. The platform is designed to create a seamless and engaging shopping experience that encourages product discovery and drives conversions.",
       role: "Shopify Developer",
       image: movies,
-      tags: ["Judge.me", "Canva", "Klaviyo", "Premium Theme", "Honeycomb Upsell Funnel", "Google Analytics 4 (GA4)"],
+      tags: ["Judge.me", "Google Analytics 4 (GA4)", "Canva", "Klaviyo", "Premium Theme", "Honeycomb Upsell Funnel"],
       slug: "moviesflix",
       featured: true,
       features: ["Clean, Conversion-Focused Design", "Mobile-Optimized Experience", "ChatBot to Guide Customers", "High-Converting Product Pages", "Trust-Building Elements", "Up-sell & Cross-Sell for Increased Revenue", "SEO Optimization", "Analytics and Tracking", "Ongoing Optimization and Support", "Email Marketing Integration"],
       year: 2025,
       liveUrl: "https://joocyee.com/",
+      category: "Shopify Store Setup",
     },
     {
-  title: "Oh Baby Ultrasound + Boutique",
+      title: "Oh Baby Ultrasound + Boutique",
 
-  description:
-    "A pregnancy ultrasound studio and boutique offering 2D, 3D, 4D, and HD live ultrasound experiences.",
+      description:
+        "A pregnancy ultrasound studio and boutique offering 2D, 3D, 4D, and HD live ultrasound experiences.",
 
-  case:
-    "Oh Baby Ultrasound + Boutique is a service-based business designed to provide expecting mothers with memorable ultrasound experiences in a warm, family-friendly environment. The platform combines appointment booking with boutique shopping, allowing customers to explore ultrasound packages, gender reveal products, jewelry, gifts, and pregnancy essentials through a seamless and engaging experience.",
+      case:
+        "Oh Baby Ultrasound + Boutique is a service-based business designed to provide expecting mothers with memorable ultrasound experiences in a warm, family-friendly environment. The platform combines appointment booking with boutique shopping, allowing customers to explore ultrasound packages, gender reveal products, jewelry, gifts, and pregnancy essentials through a seamless and engaging experience.",
 
-  role: "Shopify Developer & Store Optimization",
+      role: "Shopify Developer & Store Optimization",
 
-  image: ohBaby,
+      image: ohBaby,
 
-  tags: [
-    "Shopify",
-    "Booking System",
-    "Judge.me",
-    "Klaviyo",
-    "Google Analytics 4 (GA4)",
-    "Premium Theme",
-    "SEO Optimization",
-    "Conversion Optimization"
-  ],
+      tags: [
+        "Shopify",
+        "Booking System",
+        "Judge.me",
+        "Klaviyo",
+        "Google Analytics 4 (GA4)",
+        "Premium Theme",
+        "SEO Optimization",
+        "Conversion Optimization"
+      ],
 
-  slug: "oh-baby-ultrasound-boutique",
+      slug: "oh-baby-ultrasound-boutique",
 
-  featured: true,
+      featured: true,
 
-  features: [
-    "Appointment Booking Integration",
-    "Mobile-Optimized Experience",
-    "Service & Product-Based Store Structure",
-    "Conversion-Focused Design",
-    "SEO Optimization",
-    "Analytics and Tracking",
-    "Trust-Building User Experience",
-    "Optimized Navigation",
-    "Email Marketing Integration",
-    "Boutique Product Organization"
-  ],
+      features: [
+        "Appointment Booking Integration",
+        "Mobile-Optimized Experience",
+        "Service & Product-Based Store Structure",
+        "Conversion-Focused Design",
+        "SEO Optimization",
+        "Analytics and Tracking",
+        "Trust-Building User Experience",
+        "Optimized Navigation",
+        "Email Marketing Integration",
+        "Boutique Product Organization"
+      ],
 
-  year: 2025,
+      year: 2025,
 
-  liveUrl: "https://www.ohbabytn.com/"
-},
+      liveUrl: "https://www.ohbabytn.com/",
+      category: "Shopify Store Design",
+    },
     {
   title: "SONAS Bathroom Furniture",
 
   description:
     "A modern bathroom furniture store offering premium bathroom essentials and accessories.",
-
+  password: "1",
   case:
     "SONAS Bathroom Furniture is a Shopify-based eCommerce store designed to showcase premium bathroom furniture and accessories through a seamless shopping experience. The store was optimized to improve product discovery, build customer trust, and increase conversions through clean design, structured navigation, product reviews, and strategic upsell systems.",
 
   role: "Shopify Developer",
 
   image: sonasBathroom,
-
-  tags: [
-    "Shopify",
-    "Judge.me",
-    "Klaviyo",
-    "Premium Theme",
-    "Honeycomb Upsell Funnel",
-    "Google Analytics 4 (GA4)",
-    "CSV Product Import",
-    "SEO Optimization"
-  ],
-
+      tags: ["Judge.me", "Google Analytics 4 (GA4)", "CSV Product Import", "Klaviyo", "Premium Theme",
+    "SEO Optimization", "Honeycomb Upsell Funnel"],
   slug: "sonas-bathroom-furniture",
 
   featured: true,
@@ -111,12 +103,14 @@ const projects = [
 
   year: 2025,
 
-  liveUrl: "https://sonasfurniture.myshopify.com/"
+  liveUrl: "https://sonasfurniture.myshopify.com/",
+      category: "Shopify Product Organization",
 },
     {
       title: "SARAT Jewel",
       description:
         "A jewelry store offering timeless pieces for everyday elegance.",
+      password: "1",
       role: "Shopify Developer",
       case: "SARAT Jewel is an elegant jewelry store that offers timeless pieces designed for everyday wear. The platform is built to provide a seamless shopping experience, allowing customers to easily browse and purchase high-quality jewelry that complements their style.",
       image: propdex,
@@ -130,7 +124,7 @@ const projects = [
     {
       title: "Garline Fitness",
       description: "A fitness store offering performance gear for strength and training.",
-      role: "FrontEnd Developer",
+      role: "Shopify Strategist",
       case: "Garline Fitness is a performance gear store that offers high-quality products designed to enhance strength and training. The platform is built to provide a seamless shopping experience, allowing customers to easily find and purchase fitness gear that supports their workout goals.",
       image: fitness,
       tags: ["Judge.me", "Canva", "Klaviyo", "Premium Theme", "Honeycomb Upsell Funnel", "Google Analytics 4 (GA4)"],
@@ -144,7 +138,8 @@ const projects = [
       title: "Wadoir",
       description:
         "A fashion store offering curated clothing, watches, and modern style essentials.",
-      role: "FrontEnd Developer",
+      password: "1",
+      role: "Shopify Strategist",
       case: "Wadoir is a fashion store that offers curated clothing, watches, and modern style essentials. The platform is built to provide a seamless shopping experience, allowing customers to easily browse and purchase high-quality fashion items that fit their style.",
       image: trust,
       tags: ["Judge.me", "Canva", "Klaviyo", "Premium Theme", "Honeycomb Upsell Funnel", "Google Analytics 4 (GA4)"],
