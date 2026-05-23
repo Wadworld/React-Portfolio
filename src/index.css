@@ -4,6 +4,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 @theme {
   /* Fonts */
   --font-main: "Inter", sans-serif;

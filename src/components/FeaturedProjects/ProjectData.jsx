@@ -5,6 +5,8 @@ import movies from "../../assets/img/joocyee4.png";
 import propdex from "../../assets/img/saratjewel3.png";
 import trust from "../../assets/img/wadoir.png";
 import bankr from "../../assets/img/Jmtee_beauty_store_logo.webp";
+import sonasBathroom from "../../assets/img/sonasbathroom.png";
+import ohBaby from "../../assets/img/ohbaby.png"
 
 const projects = [
     {
@@ -21,6 +23,96 @@ const projects = [
       year: 2025,
       liveUrl: "https://joocyee.com/",
     },
+    {
+  title: "Oh Baby Ultrasound + Boutique",
+
+  description:
+    "A pregnancy ultrasound studio and boutique offering 2D, 3D, 4D, and HD live ultrasound experiences.",
+
+  case:
+    "Oh Baby Ultrasound + Boutique is a service-based business designed to provide expecting mothers with memorable ultrasound experiences in a warm, family-friendly environment. The platform combines appointment booking with boutique shopping, allowing customers to explore ultrasound packages, gender reveal products, jewelry, gifts, and pregnancy essentials through a seamless and engaging experience.",
+
+  role: "Shopify Developer & Store Optimization",
+
+  image: ohBaby,
+
+  tags: [
+    "Shopify",
+    "Booking System",
+    "Judge.me",
+    "Klaviyo",
+    "Google Analytics 4 (GA4)",
+    "Premium Theme",
+    "SEO Optimization",
+    "Conversion Optimization"
+  ],
+
+  slug: "oh-baby-ultrasound-boutique",
+
+  featured: true,
+
+  features: [
+    "Appointment Booking Integration",
+    "Mobile-Optimized Experience",
+    "Service & Product-Based Store Structure",
+    "Conversion-Focused Design",
+    "SEO Optimization",
+    "Analytics and Tracking",
+    "Trust-Building User Experience",
+    "Optimized Navigation",
+    "Email Marketing Integration",
+    "Boutique Product Organization"
+  ],
+
+  year: 2025,
+
+  liveUrl: "https://www.ohbabytn.com/"
+},
+    {
+  title: "SONAS Bathroom Furniture",
+
+  description:
+    "A modern bathroom furniture store offering premium bathroom essentials and accessories.",
+
+  case:
+    "SONAS Bathroom Furniture is a Shopify-based eCommerce store designed to showcase premium bathroom furniture and accessories through a seamless shopping experience. The store was optimized to improve product discovery, build customer trust, and increase conversions through clean design, structured navigation, product reviews, and strategic upsell systems.",
+
+  role: "Shopify Developer",
+
+  image: sonasBathroom,
+
+  tags: [
+    "Shopify",
+    "Judge.me",
+    "Klaviyo",
+    "Premium Theme",
+    "Honeycomb Upsell Funnel",
+    "Google Analytics 4 (GA4)",
+    "CSV Product Import",
+    "SEO Optimization"
+  ],
+
+  slug: "sonas-bathroom-furniture",
+
+  featured: true,
+
+  features: [
+    "Clean, Conversion-Focused Design",
+    "Mobile-Optimized Experience",
+    "High-Converting Product Pages",
+    "Trust-Building Product Reviews",
+    "Up-sell & Cross-Sell for Increased Revenue",
+    "SEO Optimization",
+    "Analytics and Tracking",
+    "CSV Product & Review Import",
+    "Email Marketing Integration",
+    "Optimized Store Navigation"
+  ],
+
+  year: 2025,
+
+  liveUrl: "https://sonasfurniture.myshopify.com/"
+},
     {
       title: "SARAT Jewel",
       description:
